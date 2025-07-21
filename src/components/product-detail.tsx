@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Button, Card, CardBody, Chip, Divider } from "@heroui/react";
-import { Tabs, Tab } from "@heroui/tabs";
+import { Tabs, Tab } from "@heroui/react";
 import { Icon } from "@iconify/react";
 import { Canteen } from "../data/product"; // Updated import to use Canteen interface
 import DefaultLayout from "@/layouts/default";
